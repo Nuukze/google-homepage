@@ -18,6 +18,10 @@ a {
     opacity: 0.85;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .icon {
     opacity: 0.55;
 }
@@ -56,6 +60,9 @@ nav {
     font-weight: bold;
     color: white;
     border: 1px solid rgb(66, 133, 244);
+}
+#sign-in-btn:hover {
+    text-decoration: none;
 }
 
 main {
@@ -140,5 +147,4 @@ footer > section {
     display: flex;
     gap: 27px;
     font-size: 14px;
-    line-height: 27px;
 }
